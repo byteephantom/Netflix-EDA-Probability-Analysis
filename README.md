@@ -155,7 +155,6 @@ The dataset is not included in this repository. Download `netflix_titles.csv` fr
 ## 👤 Author
 
 **Quantum Nomad** ([@byteephantom](https://github.com/byteephantom))  
-AYUSH KUMAR
 ---
 
 ## 📄 License
