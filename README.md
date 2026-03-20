@@ -24,26 +24,7 @@ netflix-content-analysis/
 │   └── netflix_cleaned.csv       ← Cleaned dataset (output after preprocessing)
 │
 ├── images/                       ← All plot outputs saved here
-│   ├── movies_vs_tvshows.png
-│   ├── content_growth_by_year.png
-│   ├── top_countries.png
-│   ├── rating_distribution.png
-│   ├── top_genres.png
-│   ├── movie_duration_dist.png
-│   ├── top_directors.png
-│   ├── top_actors.png
-│   ├── ttest_duration.png
-│   ├── qqplot_duration.png
-│   ├── chisquare_type_rating.png
-│   ├── wordcloud_descriptions.png
-│   ├── cond_prob_genre_country.png
-│   ├── clt_demo.png
-│   ├── outlier_detection.png
-│   ├── content_gap_analysis.png
-│   ├── timeseries_trends.png
-│   ├── growth_rate_investigation.png
-│   └── pairplot_movies.png
-│
+│   └──....
 ├── notebook/
 │   └── Netflix_data.ipynb        ← Main analysis notebook
 │
