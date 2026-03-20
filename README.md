@@ -17,12 +17,37 @@ This project performs a comprehensive analysis of Netflix's content catalog (`ne
 ## 🗂️ Project Structure
 
 ```
-netflix-analysis/
+netflix-content-analysis/
 │
-├── Netflix_data.ipynb        ← Main analysis notebook
-├── netflix_titles.csv        ← Dataset (download from Kaggle)
-├── README.md
-└── requirements.txt
+├── data/
+│   ├── netflix_titles.csv        ← Raw dataset (download from Kaggle)
+│   └── netflix_cleaned.csv       ← Cleaned dataset (output after preprocessing)
+│
+├── images/                       ← All plot outputs saved here
+│   ├── movies_vs_tvshows.png
+│   ├── content_growth_by_year.png
+│   ├── top_countries.png
+│   ├── rating_distribution.png
+│   ├── top_genres.png
+│   ├── movie_duration_dist.png
+│   ├── top_directors.png
+│   ├── top_actors.png
+│   ├── ttest_duration.png
+│   ├── qqplot_duration.png
+│   ├── chisquare_type_rating.png
+│   ├── wordcloud_descriptions.png
+│   ├── cond_prob_genre_country.png
+│   ├── clt_demo.png
+│   ├── outlier_detection.png
+│   ├── content_gap_analysis.png
+│   ├── timeseries_trends.png
+│   ├── growth_rate_investigation.png
+│   └── pairplot_movies.png
+│
+├── notebook/
+│   └── Netflix_data.ipynb        ← Main analysis notebook
+│
+└── README.md
 ```
 
 ---
@@ -120,11 +145,11 @@ cd netflix-content-analysis
 pip install pandas numpy matplotlib seaborn scipy wordcloud
 
 # 3. Download dataset
-# Place netflix_titles.csv in the project root
+# Place netflix_titles.csv inside the data/ folder
 # Dataset: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 # 4. Launch notebook
-jupyter notebook Netflix_data.ipynb
+jupyter notebook notebook/Netflix_data.ipynb
 ```
 
 ---
